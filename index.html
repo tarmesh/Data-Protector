@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Document title -->
+    <title>Data Protector</title>
+    <link rel="shortcut icon" href="assets/images/logo (3).PNG" type="image/x-icon">
+    <!-- Stylesheets & Fonts -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
+        rel="stylesheet">
+    <!-- Plugins Stylesheets -->
+    <link rel="stylesheet" href="assets/css/loader/loaders.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/aos/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper/swiper.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Loader Start -->
+    <div class="css-loader">
+        <div class="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
+    </div>
+    <!-- Loader End -->
+    <!-- Header Start -->
+    <header class="position-absolute w-100">
+        <div  class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo (3).PNG" height="50" width="50"
+                        alt="logo" style="border-radius: 25%;"></a>
+                <div  class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul  class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#convertor">Convertor</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus/index.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Trust End -->
+
+    <!-- Hero Start -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-md-11">
+                    <div class="swiper-container hero-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-content d-flex align-items-center">
+                                <div class="single-slide">
+                                    <h1 data-aos="fade-right" data-aos-delay="200">Explain<br> CRYPTOGRAPHY
+                                    </h1>
+                                    <p data-aos="fade-right" data-aos-delay="600">Cryptography is the practice of using
+                                        <br>mathematical algorithms to encode and decode information.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-content d-flex align-items-center">
+                                <div class="single-slide">
+                                    <h1 data-aos="fade-right" data-aos-delay="200">Need Of<br> CRYPTOGRAPHY
+                                    </h1>
+                                    <p data-aos="fade-right" data-aos-delay="600">Cryptography is the practice of using
+                                        techniques to secure <br> communication and protect information from
+                                        unauthorized
+                                        access.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Add Control -->
+            <span class="arr-left"><i class="fa fa-angle-left"></i></span>
+            <span class="arr-right"><i class="fa fa-angle-right"></i></span>
+        </div>
+        <div class="texture"></div>
+        <div class="diag-bg"></div>
+    </section>
+    <!-- Hero End -->
+    <!-- Call To Action Start -->
+    <section class="cta" data-aos="fade-up" data-aos-delay="0" >
+        <div class="container">
+            <div class="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
+                <div class="content" data-aos="fade-right" data-aos-delay="200">
+                    <h2>Why is Web 3.0 needed</h2>
+                    <p>Web 3.0 is needed to improve information organization and access.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action End -->
+    <!-- convertor Start -->
+    <div class="title text-center" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800" id="convertor">
+        <h6>CONVERTER</h6>
+        <h1 style="color: black;">Encryption and Decryption in Just a Click</h1>
+    </div>
+    
+    <div class=" convertor">
+        <div class="text-muted">.................................</div>
+        <div class=" row justify-content-center align-items-center">
+            <div class="col sm-12 col-md-8 col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">
+                        <div id="file-placeholder">Step 1: Drag the file here or click the Browse button on the right
+                        </div>
+                    </label>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <label for="inputPassword"></label>
+                        <input type="text" id="inputPassword"
+                            placeholder="Please enter a password or automatically generate" class="form-control mx-sm-6"
+                            aria-describedby="passwordHelpInline">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="generateButton"
+                                data-toggle="tooltip" data-placement="right"
+                                title="Automatically generate random passwords">
+                                <div style="color: aliceblue;">Random</div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <small id="passwordHelpInline" style="color: #eceff1;">
+                        <b>password strength
+                        </b>: <span id="strength-text"></span>
+                    </small>
+                    <div class="progress progress-sm">
+                        <div class="progress-bar bg-secondary" id="strength-meter" role="progressbar" style="width: 4;"
+                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="4"></div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark" id="encryptBtn">start encryption</button>
+                <button type="button" class="btn btn-outline-dark" id="decryptBtn">
+                    start decrypting</button> <br> <br>
+                <button type="button" class="btn btn-outline-danger" id="resetBtn" style="display: none"><i
+                        class="fas fa-redo"></i> reset</button>
+                <br>
+                <small style="color: #eceff1;">
+                    Be sure to keep your password safe, if lost, you will not be able to decrypt your files.
+                </small>
+                <br>
+                <br>
+                <div id="error"></div>
+            </div>
+            <!--end col-->
+        </div><!-- end row -->
+        <br>
+        <br>
+
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-8 col-lg-6" id="results"></div>
+            <!--end col-->
+        </div><!-- end row -->
+
+    </div><!-- end container -->
+    <!-- Featured Start -->
+    <section class="featured" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">
+                    <div class="title">
+                        <h6 class="title-primary">about</h6>
+                        <h1 class="title-blue">What is WEB 3.0</h1>
+                    </div>
+                    <p>Web 3.0 is a term used to describe the next generation of the World Wide Web, which focuses on
+                        improving the way information is shared and accessed on the internet. It is characterized by the
+                        use of semantic technologies, which allow for a more intelligent and intuitive use of data, and
+                        the development of the "Semantic Web", which is a web of interconnected data that can be easily
+                        understood and processed by machines. Web 3.0 is also expected to be more user-centered and
+                        personalized, with a greater emphasis on user privacy and security.</p>
+                    <div class="media-element d-flex justify-content-around">
+                        <div class="media">
+                            <div class="media-body">
+                                <img src="assets/images/a-1.png" alt="security" height="100" width="100">
+                                <h5>Security</h5>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body">
+                                <img src="assets/images/a-2.png" alt="privacy" height="100" width="100">
+                                <h5>Privacy</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
+                    <div class="featured-img">
+                        <img class="featured-big" src="assets/images/a-4.jpg" alt="Featured 1" height="500" width="500">
+                        <img class="featured-small" src="assets/images/a-3.jpg" alt="Featured 2" height="300"
+                            width="300">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Featured End -->
+    <!-- Recent Posts Start -->
+    <div class="title text-center" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
+        <h6>About</h6>
+        <h1 class="title-blue">What is the need</h1>
+    </div>
+    <section class="recent-posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="800">
+                        <div class="post-content text-sm-center">
+                            <h5>
+                                One of the key advantages of blockchain technology is that it is
+                                decentralized, meaning that it is not controlled by any
+                                single entity or authority.
+                            </h5>
+                        </div>
+                        <div class="post-thumb">
+                            <img class="img-fluid" src="assets/images/p-1.jpg" alt="Post 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="800">
+                        <div class="post-content text-sm-center">
+                            <h5>
+                                Advantage of blockchain technology is that it is immutable, meaning that once data has
+                                been added to the blockchain, it
+                                cannot be altered or deleted.
+                            </h5>
+                        </div>
+                        <div class="post-thumb">
+                            <img class="img-fluid" src="assets/images/p-2.webp" alt="Post 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="800">
+                        <div class="post-content text-sm-center">
+                            <h5>
+                                Because the blockchain is a distributed ledger, it is transparent, meaning that all
+                                transactions and data are visible to
+                                anyone on the network.
+                            </h5>
+                        </div>
+                        <div class="post-thumb">
+                            <img class="img-fluid" src="assets/images/p-3.jpg" alt="Post 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-rpost d-sm-flex align-items-center" data-aos="fade-right"
+                        data-aos-duration="800">
+                        <div class="post-content text-sm-center">
+                            <h5>
+                                The use of blockchain technology can help streamline processes and make them more
+                                efficient.
+                            </h5>
+                        </div>
+                        <div class="post-thumb">
+                            <img class="img-fluid" src="assets/images/p-4.jpg" alt="Post 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Recent Posts End -->
+    
+    <!-- Foot Note Start -->
+    <div class="foot-note">
+        <div class="container">
+            <div class="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
+                <p class="mb-0" data-aos="fade-right" data-aos-offset="0">&copy; 2024 All Rights Reserved .
+                </p>
+                <p class="mb-0" data-aos="fade-left" data-aos-offset="0"><a href="#">Terms Of Use</a><a href="#">Privacy
+                        & Security
+                        Statement</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Foot Note End -->
+    </footer>
+    <!-- Footer Endt -->
+    <!--jQuery-->
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <!--Plugins-->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/loaders.css.js"></script>
+    <script src="assets/js/bundle.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/lightgallery-all.min.js"></script>
+    <!--Template Script-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
